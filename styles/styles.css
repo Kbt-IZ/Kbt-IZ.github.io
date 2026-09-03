@@ -1,0 +1,23 @@
+@import url("./colors.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: block;
+  flex-direction: column;
+}
+
+div {
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+}
+
+.background-1 {
+  background-color: var(--bg-1);
+}
+.background-2 {
+  background-color: var(--bg-2);
+}
