@@ -1,26 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--stylesheets-->
+  <link rel="stylesheet" href="styles/colors.css" type="text/css">
+  <link rel="stylesheet" href="styles/fonts.css" type="text/css">
   <link rel="stylesheet" href="styles/styles.css" type="text/css">
-  <title>KTB Isabelle Zajic</title>
+  <link rel="stylesheet" href="styles/textStyles.css" type="text/css">
+  <link rel="stylesheet" href="styles/containerStyles.css" type="text/css">
+  <link rel="stylesheet" href="styles/contactStyles.css" type="text/css">
+  <link rel="stylesheet" href="styles/navigationStyles.css" type="text/css">
+  <link rel="stylesheet" href="styles/footerStyles.css" type="text/css">
+  <link rel="stylesheet" href="styles/imageStyles.css" type="text/css">
+  <link rel="stylesheet" href="styles/buttonStyles.css" type="text/css">
+
+
+  <title>KTB Titel Vorname Nachname</title>
 </head>
 <body>
   <main>
-    <div class="background-1">
-      <div>
-        <h1>Isabell Zajic</h1>
-        <p>Lorem ipsum</p>
+    <section id="uebersicht" class="background-1">
+      <div class="container">
+        <div class="container-card">
+          <h1>Vorname Nachname</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+          <nav>
+            <a class="button" href="#angebot">Angebot</a>
+            <a class="button" href="#qualifikationen">Qualifikationen</a>
+            <a class="button" href="#kontakt">Kontakt</a>
+          </nav>
+        </div>
+        <div class="container-card">
+          <img class="portrait" src="./src/imgs/placeholder_portrait.webp" alt="Ein Foto von ...">
+        </div>
       </div>
-    </div>
-    <div class="background-2">
-      <p>Lorem ipsum</p>
-    </div>
-    <div class="background-1">
-      <p>Lorem ipsum</p>
-    </div>
+    </section>
+    
+
+    <section id ="angebot" class="background-2">
+      <div class="container">
+        <div class="container-card">
+          <img src="./src/imgs/placeholder_general.png" alt="Foto der Praxis">
+        </div>
+        <div class="container-card">
+          <h1>Das biete ich an</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section  id="qualifikationen" class="background-1">
+      <div class="container">
+        <div class="container-card">
+          <h1>Meine Qualifikationen</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section  id="kontakt" class="background-2">
+      <div class="container">
+        <div class="container-card contact-container background-1">
+          <h1>Kontakt</h1>
+          <a href="tel:+430000000000">+43 000 0000000</a>
+          <a href="mailto:irgendwas@irgendwas.at">irgendwas@irgendwas.at</a>
+          <address class="contact-address">
+            Platzhalterstraße 1, <br>
+            6020 Innsbruck
+          </address>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer></footer>
+  <footer>
+    <section id="impressum" class="background-2">
+      <div class="container">
+        <div class="container-card footer-container">
+          <details>
+            <summary>Impressum, etc. </summary>
+
+            <div class="footer-content">
+              <p>Hier stehen deine weiteren Informationen.</p>
+              <p>Impressum · Datenschutz · Kontakt</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </footer>
 </body>
 </html>
