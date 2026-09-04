@@ -1,3 +1,6 @@
+.footer-section {
+  padding-block: 20px;
+}
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -8,4 +11,45 @@
   max-width: 800px;
 
   padding-block: 40px;
+}
+.footer-container details {
+  width: 50%;
+}
+.footer-container summary {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+  padding-inline: 10px;
+  margin-bottom: 20px;
+  border: 2px solid transparent;
+}
+.footer-container summary:hover {
+  color: var(--light-color);
+  cursor: pointer;
+  border-color: var(--light-color);
+}
+.footer-content h2 {
+  color: var(--text-color);
+  font-size: 18pt;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footer-content h3 {
+  font-size: 16pt;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.footer-content h3::before {
+  content: "- ";
+}
+.footer-content p {
+  font-weight: 100;
+  font-size: 12pt;
+  font-weight: 100;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.footer-content {
+  padding-inline: 10px;
 }
