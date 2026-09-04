@@ -1,0 +1,38 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 800px;
+  border-radius: 20px;
+
+  padding-block: 40px;
+}
+.contact-container a {
+  display: block;
+  margin-bottom: 10px;
+
+  /* link text */
+  font-family: "Lato", sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+
+  color: var(--light-color);
+
+  width: fit-content;
+}
+.contact-container a:hover {
+  color: var(--highlight-color);
+  text-decoration: dotted;
+}
+.contact-address {
+  font-family: "Lato", sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  font-style: normal;
+
+  color: var(--text-color);
+}

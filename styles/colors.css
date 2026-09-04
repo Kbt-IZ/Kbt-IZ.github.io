@@ -1,8 +1,17 @@
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
+  --primary-color: #332E3C;
+  --secondary-color: #534351;
+
+  --light-color: #EEE4CF;
+  --highlight-color: #fff;
+  --accent-color: #B19271;
   
   /*background colors */
-  --bg-1: #396141;
-  --bg-2: #517447;
+  --bg-1: var(--primary-color);
+  --bg-2: var(--secondary-color);
+
+  /*text colors*/
+  --text-color: #fff;
+  --text-color-heading: var(--light-color);
+  --text-color-weak: var(--light-color);
 }

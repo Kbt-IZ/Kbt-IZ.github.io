@@ -1,0 +1,9 @@
+img {
+  height: auto;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
+.portrait {
+  border-radius: 20px;
+}

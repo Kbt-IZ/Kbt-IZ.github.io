@@ -1,0 +1,25 @@
+h1 {
+  color: var(--text-color-heading);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 32pt;
+  margin-bottom: 20px;
+
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+h2 {
+  color: var(--text-color);
+
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+p {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16pt;
+}

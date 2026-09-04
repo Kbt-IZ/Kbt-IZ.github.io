@@ -1,0 +1,25 @@
+section {
+  align-items: center;
+  padding-block: 120px;
+  display: flex;
+  justify-content: center;
+}
+.background-1 {
+  background-color: var(--bg-1);
+}
+.background-2 {
+  background-color: var(--bg-2);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1200px;
+  justify-content: center;
+}
+.container-card {
+  display: block;
+  flex: 1 1 300px;
+  padding: 20px;
+}

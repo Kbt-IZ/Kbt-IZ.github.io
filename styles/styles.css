@@ -1,23 +1,13 @@
-@import url("./colors.css");
-
+/* general style settings for elements */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+  }
 body {
   display: block;
   flex-direction: column;
-}
-
-div {
-  height: 550px;
-  display: flex;
-  flex-direction: row;
-}
-
-.background-1 {
-  background-color: var(--bg-1);
-}
-.background-2 {
-  background-color: var(--bg-2);
 }
