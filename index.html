@@ -17,53 +17,53 @@
   <link rel="stylesheet" href="styles/buttonStyles.css" type="text/css">
 
 
-  <title>KTB Titel Vorname Nachname</title>
+  <title>KBT Titel Vorname Nachname</title>
 </head>
 <body>
   <main>
     <section id="uebersicht" class="background-1">
       <div class="container">
         <div class="container-card">
-          <h1>Vorname Nachname</h1>
+          <h1>KBT Vorname Nachname</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
-          <nav>
+          <nav aria-label="Hauptnavigation">
             <a class="button" href="#angebot">Angebot</a>
             <a class="button" href="#qualifikationen">Qualifikationen</a>
             <a class="button" href="#kontakt">Kontakt</a>
           </nav>
         </div>
         <div class="container-card">
-          <img class="portrait" src="./src/imgs/placeholder_portrait.webp" alt="Ein Foto von ...">
+          <img class="portrait" src="./src/imgs/placeholder_portrait.webp" alt="Platzhalterfoto für eine Portrait der Therapeutin">
         </div>
       </div>
     </section>
     
 
-    <section id ="angebot" class="background-2">
+    <section id="angebot" class="background-2">
       <div class="container">
         <div class="container-card">
-          <img src="./src/imgs/placeholder_general.png" alt="Foto der Praxis">
+          <img src="./src/imgs/placeholder_general.png" alt="Platzhaterfoto für ein Foto der Praxis">
         </div>
         <div class="container-card">
-          <h1>Das biete ich an</h1>
+          <h2>Das biete ich an</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
         </div>
       </div>
     </section>
 
-    <section  id="qualifikationen" class="background-1">
+    <section id="qualifikationen" class="background-1">
       <div class="container">
         <div class="container-card">
-          <h1>Meine Qualifikationen</h1>
+          <h2>Meine Qualifikationen</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
         </div>
       </div>
     </section>
 
-    <section  id="kontakt" class="background-2">
+    <section id="kontakt" class="background-2 contact-section">
       <div class="container">
         <div class="container-card contact-container background-1">
-          <h1>Kontakt</h1>
+          <h2>Kontakt</h2>
           <a href="tel:+430000000000">+43 000 0000000</a>
           <a href="mailto:irgendwas@irgendwas.at">irgendwas@irgendwas.at</a>
           <address class="contact-address">
@@ -75,15 +75,20 @@
     </section>
   </main>
   <footer>
-    <section id="impressum" class="background-2">
+    <section id="impressum" class="background-2 footer-section">
       <div class="container">
         <div class="container-card footer-container">
           <details>
-            <summary>Impressum, etc. </summary>
+            <summary>Impressum und Datenschutz</summary>
 
             <div class="footer-content">
-              <p>Hier stehen deine weiteren Informationen.</p>
-              <p>Impressum · Datenschutz · Kontakt</p>
+              <h2>Impressum</h2>
+              <p>Informationen fürs Impressum</p>
+              <h2>Datenschutz</h2>
+              <h3>Online</h3>
+              <p>Auf dieser Website werden keinerlei Daten erfasst, Cookies gespeichert oder anderweitig verarbeitet.</p>
+              <h3>In der Praxis</h3>
+              <p>Hinweis auf Verschwiegenheitspflicht und so</p>
             </div>
           </details>
         </div>
