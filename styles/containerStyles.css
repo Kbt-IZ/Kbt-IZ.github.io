@@ -1,6 +1,6 @@
 section {
   align-items: center;
-  padding-block: 120px;
+  padding-block: 60px;
   display: flex;
   justify-content: center;
 }
@@ -19,7 +19,6 @@ section {
   justify-content: center;
 }
 .container-card {
-  display: block;
   flex: 1 1 300px;
   padding: 20px;
 }

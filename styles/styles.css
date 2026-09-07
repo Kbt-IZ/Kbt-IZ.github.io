@@ -11,3 +11,21 @@ body {
   display: block;
   flex-direction: column;
 }
+
+/* attribute classes */
+.display-block {
+  display: block;
+}
+.display-flex-vertically-centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* default styles for html tags */
+ul {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 16pt;
+}
