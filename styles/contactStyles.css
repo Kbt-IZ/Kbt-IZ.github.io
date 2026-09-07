@@ -10,12 +10,8 @@
   align-items: normal;
 
   max-width: 800px;
-  border-radius: 20px;
 
   padding-block: 40px;
-}
-.contact-content {
-  padding-inline: 20px;
 }
 .contact-container a {
   display: block;

@@ -25,6 +25,9 @@ main {
   flex-direction: column;
   justify-content: center;
 }
+.align-right {
+  align-items: end;
+}
 
 /* default styles for html tags */
 
