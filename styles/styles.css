@@ -11,6 +11,10 @@ body {
   display: block;
   flex-direction: column;
 }
+main {
+  background-color: var(--bg-1);
+  padding-bottom: 40px;
+}
 
 /* attribute classes */
 .display-block {
@@ -23,6 +27,7 @@ body {
 }
 
 /* default styles for html tags */
+
 ul {
   color: var(--text-color);
   font-family: "Lato", sans-serif;
