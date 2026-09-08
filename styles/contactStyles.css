@@ -28,9 +28,11 @@
 }
 .contact-container a:hover {
   color: var(--link-color-focus);
+  text-decoration: none;
 }
 .contact-container a:focus {
   color: var(--link-color-focus);
+  text-decoration: none;
 }
 .contact-address {
   font-family: "Lato", sans-serif;
