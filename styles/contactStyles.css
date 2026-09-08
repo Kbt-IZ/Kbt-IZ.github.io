@@ -22,13 +22,15 @@
   font-size: 16pt;
   font-weight: 300;
 
-  color: var(--light-color);
+  color: var(--link-color);
 
   width: fit-content;
 }
 .contact-container a:hover {
-  color: var(--highlight-color);
-  text-decoration: dotted;
+  color: var(--link-color-focus);
+}
+.contact-container a:focus {
+  color: var(--link-color-focus);
 }
 .contact-address {
   font-family: "Lato", sans-serif;

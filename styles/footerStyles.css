@@ -16,19 +16,20 @@
   width: 50%;
 }
 .footer-container summary {
-  color: var(--text-color);
+  color: var(--link-color);
   font-family: "Lato", sans-serif;
   font-weight: 100;
   font-size: 14pt;
   text-decoration: underline;
   padding-inline: 10px;
   margin-bottom: 20px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 .footer-container summary:hover {
-  color: var(--light-color);
+  color: var(--link-color-focus);
   cursor: pointer;
-  border-color: var(--light-color);
+  border-color: var(--link-color-focus);
+  text-decoration: none;
 }
 .footer-content h2 {
   color: var(--text-color);

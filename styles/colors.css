@@ -1,17 +1,27 @@
 :root {
-  --primary-color: #332E3C;
-  --secondary-color: #534351;
+  --primary-color: #fae7d4;
+  --secondary-color: #fcdcbc;
 
-  --light-color: #EEE4CF;
-  --highlight-color: #fff;
-  --accent-color: #B19271;
+  --primary-contrast-color: #000;
+  --secondary-contrast-color: #494949;
+  --tertiary-contrast-color: #3d2e2e;
   
   /*background colors */
   --bg-1: var(--primary-color);
   --bg-2: var(--secondary-color);
 
   /*text colors*/
-  --text-color: #fff;
-  --text-color-heading: var(--light-color);
-  --text-color-weak: var(--light-color);
+  --text-primary-color: var(--primary-contrast-color);
+  --text-secondary-color: var(--secondary-contrast-color);
+  --text-highlight-color: var(--tertiary-contrast-color);
+  --text-primary-inverse-color: var(--primary-color);
+  --text-secondary-inverse-color: var(--secondary-color);
+
+  --text-color: var(--text-primary-color);
+  --text-color-heading: var(--text-secondary-color);
+  --text-color-weak: var(--text-secondary-color);
+  --link-color: var(--text-highlight-color);
+  --link-color-focus: var(--text-secondary-color);
+  --button-primary-text-color: var(--text-primary-inverse-color);
+  --button-secondary-text-color: var(--text-secondary-inverse-color);
 }
