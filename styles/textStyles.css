@@ -2,10 +2,10 @@ h1 {
   color: var(--text-color-heading);
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 32pt;
+  font-size: 26pt;
   margin-bottom: 20px;
 
-  hyphens: auto;
+  hyphens: none;
   overflow-wrap: break-word;
   word-break: normal;
 }
@@ -14,7 +14,7 @@ h2 {
   color: var(--text-color-heading);
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 26pt;
+  font-size: 22pt;
   margin-bottom: 20px;
 
   hyphens: auto;
