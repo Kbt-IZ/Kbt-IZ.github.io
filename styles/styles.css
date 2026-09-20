@@ -38,3 +38,7 @@ ul {
   font-weight: 300;
   font-size: 16pt;
 }
+
+p {
+  text-align: justify;
+}
