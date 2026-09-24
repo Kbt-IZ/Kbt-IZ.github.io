@@ -35,3 +35,6 @@ p {
   font-weight: 300;
   font-size: 16pt;
 }
+.align-left {
+  text-align: left;
+}
