@@ -52,6 +52,16 @@
   margin-bottom: 20px;
   margin-left: 20px;
 }
+.footer-content address {
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-size: 12pt;
+  font-weight: 100;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  font-style: normal;
+}
 .footer-content {
   padding-inline: 10px;
 }
